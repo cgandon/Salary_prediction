@@ -1,0 +1,23 @@
+<table>
+  <tr>
+<div align="center">
+       <h1>
+         <small class="text-muted" align="center">Combien avez vous d'années d'expérience?</small>
+       </h1>
+</div>
+</tr>
+<tr>
+<div align="center">
+       <form class="d-flex flex-column align-items-center" action="{{url_for('predict')}}" method="post">
+         <div class="d-flex flex-row col-md-6 mr-5" align="center">
+           <input type="text" name="year" id="year"required>
+         </div>
+
+         <div class="button d-flex justify-content-center">
+           <input type="submit" value="Search...">
+         </div>
+
+</div>
+   </form>
+ </tr>
+</table>
